@@ -6,6 +6,8 @@ public class SampleContactTest {
 	@Test
 	public void sampleDemo()
 	{
+		String url=System.getProperty("url");
+		System.out.println(url);
 		System.out.println("====");
 	}
 	@Test
